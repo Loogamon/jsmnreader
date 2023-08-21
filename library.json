@@ -1,0 +1,62 @@
+{
+  "name": "jsmn",
+  "keywords": "json",
+  "description": "Minimalistic JSON parser/tokenizer in C. It can be easily integrated into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/zserge/jsmn.git",
+	"sub": {
+		"monkey" : "boy",
+		"dog" : "man",
+		"bepo" : "pepsi",
+		"reddit" : [
+		"https://www.reddit.com/r/anno/comments/xgp5yu/is_there_a_way_to_get_the_plant_a_tree_dlc_with_a/",
+		"https://www.reddit.com/r/eurovision/comments/xh8ae3/my_predictions_for_eurovision_2023_participation/",
+		"https://www.reddit.com/r/NewParents/comments/xh61rg/i_was_so_excited_to_finally_be_able_to_sleep_on/"
+		]
+	}
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c",
+	{
+    "id": 1,
+    "name": {
+      "english": "Bulbasaur",
+      "japanese": "フシギダネ",
+      "chinese": "妙蛙种子",
+      "french": "Bulbizarre"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 45,
+      "Attack": 49,
+      "Defense": 49,
+      "Sp. Attack": 65,
+      "Sp. Defense": 65,
+      "Speed": 45
+    }
+  },
+  1234,
+  [ 1 , 2 , { "too" : "much", "crap" : "holy heck!" } , 4 , 5],
+  "something",
+  "nonsensial like \"farts!\""
+  ],
+  "exclude": "test",
+  "another": "something\\dumber\\thanyou",
+  "dumb": "How to quote? It's \"like\" this.",
+  "break": "Bre",
+  "number": 1234,
+  "floating": 12.34,
+
+  "signed": -5678,
+  "floating_neg": -42.123,
+  "truthfully": true,
+  "falsely accused": false,
+  "nothing": null
+}
